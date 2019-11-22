@@ -1,7 +1,6 @@
 {
-  "name": "flip-ui-components",
-  "version": "0.1.0",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "name": "@appgharage/flip-ui-components",
+  "version": "0.1.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -30,6 +29,13 @@
     "vue-template-compiler": "^2.6.10",
     "vuepress": "^1.2.0"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
