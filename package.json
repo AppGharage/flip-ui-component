@@ -1,7 +1,7 @@
 {
   "name": "flip-ui-components",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
