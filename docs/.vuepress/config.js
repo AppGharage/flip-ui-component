@@ -2,15 +2,15 @@ module.exports = {
   locales: {
     "/": {
       lang: "en-US",
-      title: "Component Library 🥂",
-      description: "Documentation site for the Vue component library plugin"
+      title: "Flip UI Components 🥂",
+      description: "Documentation site for Flip UI Components library"
     }
   },
 
   themeConfig: {
     repoLabel: "Contribute!",
     // git repo here... gitlab, github
-    repo: "",
+    repo: "https://github.com/AppGharage/flip-ui-components",
     docsDir: "docs",
     editLinks: true,
     docsBranch: "dev",
@@ -37,7 +37,7 @@ module.exports = {
         sidebar: {
           "/components/": [
             {
-              title: "Button",
+              title: "Components",
               collapsable: false,
               children: ["button"]
             }

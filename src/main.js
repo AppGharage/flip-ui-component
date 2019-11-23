@@ -6,6 +6,13 @@ const ComponentLibary = {
     for (const componentName in components) {
       const component = components[componentName];
       Vue.component(component.name, component);
+
+      // Declaring theme color properties
+      Vue.prototype.$primaryColor = options.theme.primaryColor;
+      Vue.prototype.$secondaryColor = options.theme.secondaryColor;
+      Vue.prototype.$tertiaryColor = options.theme.tertiaryColor;
+      Vue.prototype.$danger = options.theme.danger;
+      Vue.prototype.$info = options.theme.info;
     }
   }
 };

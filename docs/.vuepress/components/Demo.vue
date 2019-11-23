@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin:20px 0 20px 0;">
     <component :is="componentName" />
   </div>
 </template>

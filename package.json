@@ -29,13 +29,6 @@
     "vue-template-compiler": "^2.6.10",
     "vuepress": "^1.2.0"
   },
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
